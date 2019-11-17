@@ -1,15 +1,14 @@
-
-
 #ifndef GDEXAMPLE_H
 #define GDEXAMPLE_H
 
 #include <Godot.hpp>
-#include <Sprite.hpp>
+//#include <Sprite.hpp>
+#include <Spatial.hpp>
 
 namespace godot {
 
-class GDExample : public Sprite {
-    GODOT_CLASS(GDExample, Sprite)
+class GDExample : public godot::GodotScript<Spatial> {
+    GODOT_CLASS(GDExample)
 
 private:
     float time_passed;
@@ -20,12 +19,9 @@ public:
     GDExample();
     ~GDExample();
 
-    void _init(); // our initializer called by Godot
-
     void _process(float delta);
 };
 
 }
 
 #endif
-
