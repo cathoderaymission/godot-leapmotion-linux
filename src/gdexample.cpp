@@ -94,7 +94,7 @@ void SampleListener::onFrame(const Controller& controller) {
 	::y = z;
 	float ps = hand.grabStrength();
 	if (ps > 0.0) {
-            cout << "pinch distance" << hand.grabStrength() << endl;
+            //cout << "pinch distance" << hand.grabStrength() << endl;
 	    scale = 1.0 - ps;
 	}
 	const Vector normal = hand.palmNormal();
@@ -164,7 +164,7 @@ void GDExample::_process(float delta) {
     }
     if ((::rotx != ::lastrotx) || (::roty != ::lastroty) || (::rotz != ::lastrotz)) {
 	Vector3 rot = Vector3(rotz, roty, rotx);
-	cout << "rotation " << rot.x << " " << rot.y << " " << rot.z << endl;
+	//cout << "rotation " << rot.x << " " << rot.y << " " << rot.z << endl;
 	owner->set_rotation(rot);
 	::lastrotx = ::rotx;
 	::lastroty = ::roty;
