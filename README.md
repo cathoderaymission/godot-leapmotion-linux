@@ -24,3 +24,5 @@ The skeleton is taken straight from the gdnative c++ example:
 https://godot.readthedocs.io/en/latest/tutorials/plugins/gdnative/gdnative-cpp-example.html
 
 The leap motion code is taken from Sample.cpp in the SDK samples directory.
+
+For a quick build, just download build.sh, get a copy of the leap SDK 2.3.1 for linux and follow the instructions in the shell script. It will automatically build the driver for you.
