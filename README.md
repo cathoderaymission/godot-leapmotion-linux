@@ -1,4 +1,6 @@
-Alpha version of Linux Leap Motion driver for Godot
+# Alpha version of Linux Leap Motion driver for Godot
+
+For a quick build, just download build.sh, get a copy of the leap SDK 2.3.1 for linux and follow the instructions in the shell script. It will automatically build the driver for you.
 
 Based on the idea from gdleapmotion, however this uses an older Leap motion SDK as the Leapc api is only available for windows at the moment.
 https://github.com/BastiaanOlij/gdleapmotion
@@ -25,4 +27,4 @@ https://godot.readthedocs.io/en/latest/tutorials/plugins/gdnative/gdnative-cpp-e
 
 The leap motion code is taken from Sample.cpp in the SDK samples directory.
 
-For a quick build, just download build.sh, get a copy of the leap SDK 2.3.1 for linux and follow the instructions in the shell script. It will automatically build the driver for you.
+
