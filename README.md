@@ -1,4 +1,4 @@
-# Alpha version of Linux Leap Motion driver for Godot
+# Linux Leap Motion driver for Godot (Alpha version)
 
 For a quick build, just download build.sh, get a copy of the leap SDK 2.3.1 for linux and follow the instructions in the shell script. It will automatically build the driver for you.
 
